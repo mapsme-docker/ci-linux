@@ -12,8 +12,9 @@ RUN rm -rf /var/lib/apt/lists/* && \
 # Installing packages
 RUN apt-get install -y \
     bash \
-    cmake \
     clang \
+    cmake \
+    curl \
     gcc-6 \
     g++-6 \
     libboost-all-dev \

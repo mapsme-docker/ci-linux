@@ -21,6 +21,7 @@ RUN apt-get install -y \
     libqt5svg5-dev \
     libz-dev \
     make \
+    openssl \
     python3 \
     qtwebengine5-dev \
     qt5-default \

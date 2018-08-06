@@ -12,6 +12,7 @@ RUN rm -rf /var/lib/apt/lists/* && \
 # Installing packages
 RUN apt-get install -y \
     bash \
+    ca-certificates \
     clang \
     cmake \
     curl \

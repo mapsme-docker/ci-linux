@@ -23,11 +23,15 @@ RUN apt-get install -y \
     libz-dev \
     make \
     openssl \
+    python-pip \
     python3 \
     qtwebengine5-dev \
     qt5-default \
     libsqlite3-dev \
     --no-install-recommends
+
+# For Timofey's test server
+RUN pip install tornado
 
 ENV PYTHON_LIBRARY=/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu
 
